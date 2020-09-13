@@ -1,0 +1,87 @@
+.about {
+	position: relative;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+
+		@include respond-950 {
+			flex-direction: column;
+		}
+
+		@include respond-768 {
+			padding-top: 5rem;
+		}
+	}
+
+	&__heading {
+		width: 60%;
+		padding-right: 5%;
+		align-self: center;
+
+		@include respond-950 {
+			width: 100%;
+			padding-right: 0;
+			padding-bottom: 5%;
+		}
+	}
+
+	&__heading-name {
+		color: $color-font-2;
+		font-size: 3rem;
+		margin-bottom: 2rem;
+
+		@include respond-590 {
+			font-size: 2rem;
+		}
+	}
+
+	&__biography-text {
+		color: $color-font-1;
+		line-height: 2rem;
+		margin-bottom: 1rem;
+
+		@include respond-590 {
+			font-size: .8rem;
+		}
+	}
+
+	&__link-text {
+		color: $color-border !important;
+	}
+
+	&__socials-list {
+		display: flex;
+		padding-top: .5rem;
+	}
+
+	&__social-icon {
+		padding-right: 1.2rem;
+	}
+
+	&__link,
+	&__email {
+		font-size: 1.3rem;
+		transition: .2s all;
+
+		&:hover {
+			color: $color-hover;
+		}
+
+		@include respond-590 {
+			font-size: 1rem;
+		}
+	}
+
+	&__image {
+		width: 40%;
+		align-self: center;
+
+		@include respond-950 {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+		}
+	}
+}
