@@ -75,6 +75,7 @@
 	}
 
 	&__image {
+		display: block;
 		width: 40%;
 		align-self: center;
 
@@ -83,5 +84,10 @@
 			display: flex;
 			justify-content: center;
 		}
+	}
+
+	&__img {
+		display: block;
+		max-width: 100%;
 	}
 }
