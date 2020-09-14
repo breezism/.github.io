@@ -80,9 +80,11 @@
 		align-self: center;
 
 		@include respond-950 {
+			width: 80%;
+		}
+
+		@include respond-590 {
 			width: 100%;
-			display: flex;
-			justify-content: center;
 		}
 	}
 
