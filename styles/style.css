@@ -275,9 +275,15 @@ a.skip-link {
   left: -1000px;
   top: 0;
   z-index: 999;
-  background-color: #fff;
+  background-color: #ddaaae;
   padding: 10px;
   color: blue;
+}
+
+@media (max-width: 768px) {
+  a.skip-link {
+    display: none;
+  }
 }
 
 a.skip-link:focus {
@@ -488,15 +494,6 @@ textarea {
     padding-top: 2rem;
     opacity: 0;
   }
-}
-
-.navigation__item-active {
-  font-family: "Nunito", sans-serif;
-  font-size: .8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding-left: 2rem;
-  color: #ddaaae;
 }
 
 .navigation__link {
@@ -1024,13 +1021,6 @@ textarea {
   color: #fff;
 }
 
-@media (max-width: 590px) {
-  .projects__link {
-    font-size: .6rem;
-    padding: .4rem .8rem;
-  }
-}
-
 .contact {
   padding: 7rem 0 5rem;
 }
@@ -1289,6 +1279,7 @@ textarea {
 }
 
 .about__image {
+  display: block;
   width: 40%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -1305,6 +1296,11 @@ textarea {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+
+.about__img {
+  display: block;
+  max-width: 100%;
 }
 
 .project__container {
