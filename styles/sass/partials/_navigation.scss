@@ -92,15 +92,6 @@
 		}
 	}
 
-	&__item-active {
-		font-family: $font-secondary;
-		font-size: .8rem;
-		font-weight: 600;
-		text-transform: uppercase;
-		padding-left: 2rem;
-		color: $color-border;
-	}
-
 	&__link {
 		letter-spacing: 1px;
 		margin-top: .5rem;

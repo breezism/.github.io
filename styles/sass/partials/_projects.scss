@@ -145,10 +145,5 @@
 			background-color: $color-font-1;
 			color: $color-white;
 		}
-
-		@include respond-590 {
-			font-size: .6rem;
-			padding: .4rem .8rem;
-		}
 	}
 }

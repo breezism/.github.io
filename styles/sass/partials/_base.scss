@@ -5,9 +5,13 @@ a.skip-link {
 	left: -1000px;
 	top: 0;
 	z-index: 999;
-	background-color: #fff;
+	background-color: $color-border;
 	padding: 10px;
 	color: blue;
+
+	@include respond-768 {
+		display: none;
+	}
 
 	&:focus {
 		left: 50%;
