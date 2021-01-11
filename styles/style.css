@@ -332,7 +332,7 @@ ul,
 li {
   list-style: none;
 }
-ul.list {
+li.list {
     list-style: disc;
 }
 p {
