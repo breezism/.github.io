@@ -337,6 +337,7 @@ li.list {
   list-style: disc;
   list-style-position: inside;
   margin-bottom: 0.5rem;
+  line-height: 1.5;
 }
 p {
   line-height: 1.5;
